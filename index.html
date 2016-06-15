@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <script src='./lib/jquery-3.min.js'></script>
+    <link rel="stylesheet" type="text/css" href='./styles/index.css'/>
+  </head>
+  <body>
+
+    <header>
+      <div class='logo'>LOGO</div>
+      <div>HEADER</div>
+    </header>
+    <div id="mainContainer">
+      <div id="leftPane">
+        <div class="searchBoxContainer">
+          <div class="searchBoxHeader">
+            <div >Element</div>
+            <div class="clearAll">x Cancel</div>
+          </div>
+          <input type='search' id='searchBox' placeholder="Search" autocomplete="off"/>
+        </div>
+        <ul id='listContainer'></ul>
+      </div>
+      <div id="rightPane">
+        <div id="rightPaneHeader"></div>
+        <div id="rightPaneBodyHeader">
+            <div class='headerLabel'>What is added</div>
+            <div class='headerLabel'>HTML Element</div>
+        </div>
+        <div id="rightPaneBody"></div>
+      </div>
+    </div>
+    <footer>@abc.org</footer>
+    <script src='./src/main.js'></script>
+  </body>
+</html>
